@@ -9,7 +9,7 @@ node-cgi is provided under the terms of the [MIT License](http://github.com/lrsj
 
 ## Changelog
 
-### v0.1.0 - *2012-??-??*
+### v0.1.0 - *2012-09-08*
 
 * initial release
 
