@@ -3,7 +3,7 @@
   "version": "0.2.0-dev",
   "description": "use node as cgi-module",
   "url": "http://larsjung.de/node-cgi",
-  "keywords": [],
+  "keywords": ["node", "cgi"],
   "author": "Lars Jung <lrsjng@gmail.com>",
   "license": "MIT",
   "repository": {
