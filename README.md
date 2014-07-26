@@ -1,15 +1,34 @@
 # node-cgi
 
-* to report a bug or make a feature request please create [a new issue](http://github.com/lrsjng/node-cgi/issues/new).
-* website and docs: <http://larsjung.de/node-cgi>
-* sources: <http://github.com/lrsjng/node-cgi>
+[![Version](http://img.shields.io/npm/v/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
+[![Downloads](http://img.shields.io/npm/dm/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
+[![License](http://img.shields.io/npm/l/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
+[![Dependencies Status](http://img.shields.io/david/lrsjng/node-cgi.svg?style=flat)](https://david-dm.org/lrsjng/node-cgi)
 
-node-cgi is provided under the terms of the [MIT License](http://github.com/lrsjng/node-cgi/blob/develop/LICENSE.md).
+Use node as cgi-module.
+
+References: [web](http://larsjung.de/node-cgi/), [GitHub](https://github.com/lrsjng/node-cgi), [npm](https://www.npmjs.org/package/node-cgi)
 
 
-## Changelog
+## License
+The MIT License (MIT)
 
-### v0.1.0 - *2012-09-08*
+Copyright (c) 2014 Lars Jung (http://larsjung.de)
 
-* initial release
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

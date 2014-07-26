@@ -2,6 +2,7 @@
 /*jshint node: true */
 'use strict';
 
+
 var Processor = require('../lib/Processor'),
 	filename = process.env.PATH_TRANSLATED,
 	options = {
@@ -11,5 +12,6 @@ var Processor = require('../lib/Processor'),
 			'.html.nd': 'html'
 		}
 	};
+
 
 Processor.processFile(filename, options).toStdout();
