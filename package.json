@@ -1,10 +1,11 @@
 {
   "name": "node-cgi",
-  "version": "0.2.0-dev",
+  "displayName": "node-cgi",
+  "version": "0.3.0",
   "description": "use node as cgi-module",
-  "url": "http://larsjung.de/node-cgi",
-  "keywords": ["node", "cgi"],
-  "author": "Lars Jung <lrsjng@gmail.com>",
+  "homepage": "http://larsjung.de/node-cgi",
+  "bugs": "https://github.com/lrsjng/node-cgi/issues",
+  "author": "Lars Jung <lrsjng@gmail.com> (http://larsjung.de)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,10 +16,10 @@
     "node-cgi": "./bin/node-cgi"
   },
   "dependencies": {
-    "underscore": "~1.3.3",
-    "jade": "~0.27.2"
+    "jade": "~1.5.0",
+    "underscore": "~1.6.0"
   },
   "engines": {
-    "node": ">=0.6"
+    "node": ">=0.10"
   }
 }
