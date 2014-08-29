@@ -1,13 +1,9 @@
 # node-cgi
 
-[![Version](http://img.shields.io/npm/v/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
-[![Downloads](http://img.shields.io/npm/dm/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
-[![License](http://img.shields.io/npm/l/node-cgi.svg?style=flat)](https://www.npmjs.org/package/node-cgi)
-[![Dependencies Status](http://img.shields.io/david/lrsjng/node-cgi.svg?style=flat)](https://david-dm.org/lrsjng/node-cgi)
+[![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
+[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![dependencies status][gemnasium-img]][gemnasium] [![build status][travis-img]][travis]
 
 Use node as cgi-module.
-
-References: [web](http://larsjung.de/node-cgi/), [GitHub](https://github.com/lrsjng/node-cgi), [npm](https://www.npmjs.org/package/node-cgi)
 
 
 ## License
@@ -32,3 +28,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+[web]: http://larsjung.de/node-cgi/
+[github]: https://github.com/lrsjng/node-cgi
+[npm]: https://www.npmjs.org/package/node-cgi
+[gemnasium]: https://gemnasium.com/lrsjng/node-cgi
+[travis]: https://travis-ci.org/lrsjng/node-cgi
+
+[license-img]: http://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
+[web-img]: http://img.shields.io/badge/web-larsjung.de/node--cgi-a0a060.svg?style=flat-square
+[github-img]: http://img.shields.io/badge/github-lrsjng/node--cgi-a0a060.svg?style=flat-square
+[npm-img]: http://img.shields.io/badge/npm-node--cgi-a0a060.svg?style=flat-square
+
+[npm-v-img]: http://img.shields.io/npm/v/node-cgi.svg?style=flat-square
+[npm-dm-img]: http://img.shields.io/npm/dm/node-cgi.svg?style=flat-square
+[gemnasium-img]: http://img.shields.io/gemnasium/lrsjng/node-cgi.svg?style=flat-square
+[travis-img]: http://img.shields.io/travis/lrsjng/node-cgi.svg?style=flat-square

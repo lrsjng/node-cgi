@@ -3,15 +3,15 @@
 'use strict';
 
 
-var Processor = require('../lib/Processor'),
-	filename = process.env.PATH_TRANSLATED,
-	options = {
-		defaultType: 'js',
-		typeByExt: {
-			'.jade.nd': 'jade',
-			'.html.nd': 'html'
-		}
-	};
+var Processor = require('../lib/Processor');
+var filename = process.env.PATH_TRANSLATED;
+var options = {
+        defaultType: 'js',
+        typeByExt: {
+            '.jade.nd': 'jade',
+            '.html.nd': 'html'
+        }
+    };
 
 
 Processor.processFile(filename, options).toStdout();
