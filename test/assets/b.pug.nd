@@ -1,0 +1,8 @@
+doctype html
+html
+    head
+        title Pug-Test
+
+    body
+        p Hello
+        span <? 1 + 2 + 3 ?>

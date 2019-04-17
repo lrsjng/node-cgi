@@ -1,17 +1,6 @@
 #!/usr/bin/env node
-/*jshint node: true */
-'use strict';
 
+const proc = require('../lib/proc');
+const filename = process.env.PATH_TRANSLATED; // eslint-disable-line no-process-env
 
-var Processor = require('../lib/Processor');
-var filename = process.env.PATH_TRANSLATED;
-var options = {
-        defaultType: 'js',
-        typeByExt: {
-            '.jade.nd': 'jade',
-            '.html.nd': 'html'
-        }
-    };
-
-
-Processor.processFile(filename, options).toStdout();
+process.stdout.write(proc(filename).to_str());
