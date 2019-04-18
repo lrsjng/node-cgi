@@ -5,6 +5,9 @@
     es6: true
     node: true
 
+  parserOptions:
+    ecmaVersion: 2019
+
   rules:
     array-bracket-spacing: [2, never]
     arrow-parens: [2, as-needed]
@@ -153,6 +156,7 @@
     padded-blocks: [2, never]
     prefer-arrow-callback: 2
     prefer-const: 1
+    prefer-object-spread: 2
     prefer-reflect: 1
     prefer-spread: 2
     prefer-template: 0 ###

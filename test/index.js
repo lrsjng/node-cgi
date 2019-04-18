@@ -3,10 +3,10 @@ const {test, assert} = require('scar');
 
 const cgi = require('../lib/cgi');
 const proc = require('../lib/proc');
-const gen = require('../lib/gen');
+const run = require('../lib/run');
 const Resp = require('../lib/resp');
 
-const read = path => fs.readFileSync(path, {encoding: 'utf-8'});
+const read = path => fs.readFileSync(path, 'utf-8');
 const readr = path => read(path)
     .replace(/\\r/g, '\r')
     .replace(/\\0[\s\S]*/g, '');
@@ -23,12 +23,12 @@ test('proc', () => {
     assert.equal(typeof proc, 'function');
 });
 
-test('gen', () => {
-    assert.equal(typeof gen, 'function');
-});
-
 test('resp', () => {
     assert.equal(typeof Resp, 'function');
+});
+
+test('run', () => {
+    assert.equal(typeof run, 'function');
 });
 
 test('proc - no file throws', () => {
