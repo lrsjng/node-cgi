@@ -3,7 +3,7 @@ const {test, assert} = require('scar');
 
 const cgi = require('../lib/cgi');
 const proc = require('../lib/proc');
-const pp = require('../lib/pp');
+const gen = require('../lib/gen');
 const Resp = require('../lib/resp');
 
 const read = path => fs.readFileSync(path, {encoding: 'utf-8'});
@@ -23,21 +23,16 @@ test('proc', () => {
     assert.equal(typeof proc, 'function');
 });
 
-test('pp', () => {
-    assert.equal(typeof pp, 'object');
-    assert.deepEqual(Object.keys(pp).sort(), ['html', 'md', 'pug']);
-    assert.equal(typeof pp.html, 'function');
-    assert.equal(typeof pp.md, 'function');
-    assert.equal(typeof pp.pug, 'function');
+test('gen', () => {
+    assert.equal(typeof gen, 'function');
 });
 
 test('resp', () => {
     assert.equal(typeof Resp, 'function');
 });
 
-test('proc - no file', () => {
-    const expected = readr('test/assets/none.txt');
-    assert.equal(proc().to_str(), expected);
+test('proc - no file throws', () => {
+    assert.throws(() => proc(), /TypeError/);
 });
 
 test('proc - file.html.nd', () => {
