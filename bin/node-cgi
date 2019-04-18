@@ -1,6 +1,3 @@
 #!/usr/bin/env node
 
-const proc = require('../lib/proc');
-const filename = process.env.PATH_TRANSLATED; // eslint-disable-line no-process-env
-
-process.stdout.write(proc(filename).to_str());
+require('../lib/cgi')();

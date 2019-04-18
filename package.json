@@ -1,7 +1,7 @@
 {
   "name": "node-cgi",
   "displayName": "node-cgi",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Node as CGI-module.",
   "homepage": "https://larsjung.de/node-cgi",
   "bugs": "https://github.com/lrsjng/node-cgi/issues",
@@ -11,9 +11,9 @@
     "type": "git",
     "url": "https://github.com/lrsjng/node-cgi.git"
   },
-  "main": "./lib/Processor",
+  "main": "lib/cgi",
   "bin": {
-    "node-cgi": "./bin/node-cgi"
+    "node-cgi": "bin/node-cgi"
   },
   "scripts": {
     "lint": "eslint .",
@@ -21,6 +21,7 @@
     "precommit": "npm run -s lint && npm run -s test"
   },
   "dependencies": {
+    "marked": "0.6.2",
     "pug": "2.0.3"
   },
   "devDependencies": {

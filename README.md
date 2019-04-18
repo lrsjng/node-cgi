@@ -3,7 +3,7 @@
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
 [![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![build status][travis-img]][travis]
 
-Node as CGI-module.
+Node as CGI-module. Proof of concept, don't use in production.
 
 
 ## License
