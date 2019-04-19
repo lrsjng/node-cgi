@@ -40,7 +40,7 @@ test('proc - file.html.nd', () => {
         PATH_TRANSLATED: 'test/assets/a.html.nd'
     };
     const expected = readr('test/assets/a.txt');
-    assert.equal(proc(env).to_str(), expected);
+    assert.equal(proc(env).format(), expected);
 });
 
 test('proc - file.pug.nd', () => {
@@ -48,7 +48,7 @@ test('proc - file.pug.nd', () => {
         PATH_TRANSLATED: 'test/assets/b.pug.nd'
     };
     const expected = readr('test/assets/b.txt');
-    assert.equal(proc(env).to_str(), expected);
+    assert.equal(proc(env).format(), expected);
 });
 
 test('proc - file.md.nd', () => {
@@ -56,7 +56,7 @@ test('proc - file.md.nd', () => {
         PATH_TRANSLATED: 'test/assets/c.md.nd'
     };
     const expected = readr('test/assets/c.txt');
-    assert.equal(proc(env).to_str(), expected);
+    assert.equal(proc(env).format(), expected);
 });
 
 test.cli();
