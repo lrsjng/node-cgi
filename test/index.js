@@ -4,7 +4,6 @@ const {test, assert} = require('scar');
 const cgi = require('../lib/cgi');
 const proc = require('../lib/proc');
 const run = require('../lib/run');
-const Resp = require('../lib/resp');
 
 const read = path => fs.readFileSync(path, 'utf-8');
 const readr = path => read(path)
@@ -23,10 +22,6 @@ test('proc', () => {
     assert.equal(typeof proc, 'function');
 });
 
-test('resp', () => {
-    assert.equal(typeof Resp, 'function');
-});
-
 test('run', () => {
     assert.equal(typeof run, 'function');
 });
@@ -40,7 +35,7 @@ test('proc - file.html.nd', () => {
         PATH_TRANSLATED: 'test/assets/a.html.nd'
     };
     const expected = readr('test/assets/a.txt');
-    assert.equal(proc(env).format(), expected);
+    assert.equal(proc(env), expected);
 });
 
 test('proc - file.pug.nd', () => {
@@ -48,7 +43,7 @@ test('proc - file.pug.nd', () => {
         PATH_TRANSLATED: 'test/assets/b.pug.nd'
     };
     const expected = readr('test/assets/b.txt');
-    assert.equal(proc(env).format(), expected);
+    assert.equal(proc(env), expected);
 });
 
 test('proc - file.md.nd', () => {
@@ -56,7 +51,15 @@ test('proc - file.md.nd', () => {
         PATH_TRANSLATED: 'test/assets/c.md.nd'
     };
     const expected = readr('test/assets/c.txt');
-    assert.equal(proc(env).format(), expected);
+    assert.equal(proc(env), expected);
+});
+
+test('proc - file.nd', () => {
+    const env = {
+        PATH_TRANSLATED: 'test/assets/d.nd'
+    };
+    const expected = readr('test/assets/d.txt');
+    assert.equal(proc(env), expected);
 });
 
 test.cli();
