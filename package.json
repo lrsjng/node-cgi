@@ -1,7 +1,7 @@
 {
   "name": "node-cgi",
   "displayName": "node-cgi",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Node as CGI-module.",
   "homepage": "https://larsjung.de/node-cgi",
   "bugs": "https://github.com/lrsjng/node-cgi/issues",
@@ -18,15 +18,20 @@
   "scripts": {
     "lint": "eslint .",
     "test": "node test",
-    "precommit": "npm run -s lint && npm run -s test"
+    "check": "npm run -s lint && npm run -s test",
+    "cover": "nyc --require @babel/register --reporter text --reporter html node test",
+    "precommit": "npm run -s check"
   },
   "dependencies": {
     "marked": "0.6.2",
     "pug": "2.0.3"
   },
   "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/register": "7.4.4",
     "eslint": "5.16.0",
-    "scar": "1.6.0"
+    "nyc": "14.0.0",
+    "scar": "1.7.0"
   },
   "engines": {
     "node": ">=10.0.0"
