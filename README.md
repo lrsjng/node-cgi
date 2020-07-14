@@ -1,7 +1,7 @@
 # node-cgi
 
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
-[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![build status][travis-img]][travis]
+[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm]
 
 Node as CGI-module. Proof of concept, don't use in production.
 
@@ -33,7 +33,6 @@ THE SOFTWARE.
 [web]: https://larsjung.de/node-cgi/
 [github]: https://github.com/lrsjng/node-cgi
 [npm]: https://www.npmjs.org/package/node-cgi
-[travis]: https://travis-ci.org/lrsjng/node-cgi
 
 [license-img]: https://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
 [web-img]: https://img.shields.io/badge/web-larsjung.de/node--cgi-a0a060.svg?style=flat-square
@@ -42,4 +41,3 @@ THE SOFTWARE.
 
 [npm-v-img]: https://img.shields.io/npm/v/node-cgi.svg?style=flat-square
 [npm-dm-img]: https://img.shields.io/npm/dm/node-cgi.svg?style=flat-square
-[travis-img]: https://img.shields.io/travis/lrsjng/node-cgi.svg?style=flat-square
