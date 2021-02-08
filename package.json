@@ -23,7 +23,7 @@
     "precommit": "npm run -s check"
   },
   "dependencies": {
-    "marked": "1.1.1",
+    "marked": "2.0.0",
     "pug": "3.0.0"
   },
   "devDependencies": {
