@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "marked": "1.1.1",
-    "pug": "3.0.0"
+    "pug": "3.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.10.5",
